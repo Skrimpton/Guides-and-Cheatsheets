@@ -38,6 +38,4 @@ echo "lol wut"
 
 So you can write that long-ass oneliner like you would in a script — with visible newlines — like God intended
 
-
-![](https://user-images.githubusercontent.com/64572787/149510091-d6c234ba-913d-44cb-8cf0-71d0b3beb802.png)
-
+![Screenshot_14-01-2022_124330](https://user-images.githubusercontent.com/64572787/149510315-f038a511-1a0d-49da-af81-52c9a0ee6de3.png)
