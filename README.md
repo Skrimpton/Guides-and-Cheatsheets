@@ -22,7 +22,7 @@ fi
 
 ```
    
-<sup> *and even like this:*
+<sup> <b> *and even like this:* </b> </sup>
 
 ```bash
 [ -d "$PWD" ] && 
