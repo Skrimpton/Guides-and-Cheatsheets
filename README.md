@@ -3,7 +3,7 @@
 ```bash
 if [ -d "$PWD" ];then;echo "Yeah it is";else;echo "Hmmm... It should be";fi
 ```
-<b> *and this*
+<b>*and this*</b>
    
 ```bash
 if [ -d "$PWD" ];then
@@ -13,7 +13,7 @@ else
 fi
 ```
    
-<b> Like this:
+<b> Like this: </b>
    
 ```bash
 [ -d "$PWD" ] && echo "ofc" || echo "lol wut"
