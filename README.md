@@ -4,6 +4,7 @@
 if [ -d "$PWD" ];then;echo "Yeah it is";else;echo "Hmmm... It should be";fi
 ```
 <b> *and this*
+   
 ```bash
 if [ -d "$PWD" ];then
    echo "Yeah it is"
@@ -11,12 +12,16 @@ else
    echo "Hmmm... It should be"
 fi
 ```
+   
 <b> Like this:
+   
 ```bash
 [ -d "$PWD" ] && echo "ofc" || echo "lol wut"
 
 ```
+   
 <sup> *and even like this:*
+
 ```bash
 [ -d "$PWD" ] && {
 echo "ofc"
