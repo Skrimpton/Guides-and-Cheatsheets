@@ -35,5 +35,5 @@ echo "lol wut"
 
 
 
-![the-proof](https://imma.gr/110386xb8eef)
+![](https://imma.gr/110386xb8eef.jpg)
 
