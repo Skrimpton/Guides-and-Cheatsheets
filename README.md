@@ -1,4 +1,4 @@
-Simple terminal tricks
+# Simple terminal tricks
 
 ` 
 if [ -d "$PWD" ];then
