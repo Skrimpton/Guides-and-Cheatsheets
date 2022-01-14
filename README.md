@@ -1,9 +1,9 @@
 # Simple terminal tricks
 
 ` 
-if [ -d "$PWD" ];then
-  echo "Yeah it is"
-else
+if [ -d "$PWD" ];then \br
+  echo "Yeah it is" \br
+else \br
   echo "Hmmm... It should be"
 fi 
 `
