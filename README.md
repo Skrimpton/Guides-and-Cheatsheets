@@ -17,6 +17,7 @@ fi
    
 <b> Like this: </b>
    
+
 ```bash
 [ -d "$PWD" ] && echo "ofc" || echo "lol wut"
 
@@ -38,5 +39,5 @@ echo "lol wut"
 So you can write that long-ass oneliner like you would in a script — with visible newlines — like God intended
 
 
-![](https://imma.gr/110388x4237a.jpg)
+![](https://user-images.githubusercontent.com/64572787/149509707-7d7a4977-0390-4cd1-b094-6180358c9e36.png)
 
