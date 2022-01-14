@@ -1,4 +1,4 @@
-# Simple terminal and script tips tricks
+# Simple terminal and script tips'n'tricks
 ## Tested on Manjaro KDE using konsole 21.12.0 and zsh 5.8 (x86_64-pc-linux-gnu)
 
 ### You can write this:
@@ -39,3 +39,9 @@ echo "lol wut"
 So you can write that long-ass oneliner like you would in a script — with visible newlines — like God intended
 
 ![Screenshot_14-01-2022_124330](https://user-images.githubusercontent.com/64572787/149510315-f038a511-1a0d-49da-af81-52c9a0ee6de3.png)
+
+#### Kill *all background-jobs - bash aliases
+
+```bash alias kill-all-suspended='thejobs=$(jobs -ps | wc -l);[ "$thejobs" != 0 ] && while [ "$thejobs" != 0 ];do for i in "$thejobs"; do [ "$thejobs" != 0 ] && kill %$i; done; thejobs=$(jobs -ps | wc -l); done || echo "No suspended jobs"'```
+
+```bash alias kill-all-jobs='thejobs=$(jobs | wc -l);[ "$thejobs" != 0 ] && while [ "$thejobs" != 0 ];do for i in "$thejobs"; do [ "$thejobs" != 0 ] && kill %$i; done; thejobs=$(jobs | wc -l); done || echo "No jobs"'```
