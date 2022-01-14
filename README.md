@@ -23,7 +23,8 @@ fi
 <sup> *and even like this:*
 
 ```bash
-[ -d "$PWD" ] && {
+[ -d "$PWD" ] && 
+{
 echo "ofc"
 } || {
 echo "lol wut"
