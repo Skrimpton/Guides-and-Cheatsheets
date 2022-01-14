@@ -3,9 +3,7 @@
 ```bash
 if [ -d "$PWD" ];then;echo "Yeah it is";else;echo "Hmmm... It should be";fi
 ```
-
-<sup> *or*
-
+<sub> *or*
 ```bash
 if [ -d "$PWD" ];then
    echo "Yeah it is"
