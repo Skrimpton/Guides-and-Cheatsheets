@@ -1,9 +1,8 @@
 # Simple terminal tricks
-
+### YOu can write:
 ```bash
 if [ -d "$PWD" ];then;echo "Yeah it is";else;echo "Hmmm... It should be";fi
 ```
-
 *or
 
 ```bash
@@ -14,8 +13,7 @@ else
 fi
 ```
 
-*Can also be written as:
-
+### Like This:
 
 ```bash
 [ -d "$PWD" ] && {echo "ofc"} || {echo "lol wut"}
