@@ -5,7 +5,7 @@
 ```bash
 if [ -d "$PWD" ];then;echo "Yeah it is";else;echo "Hmmm... It should be";fi
 ```
-<b>*and this*</b>
+<b>*or this*</b>
    
 ```bash
 if [ -d "$PWD" ];then
