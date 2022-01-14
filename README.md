@@ -32,7 +32,6 @@ echo "lol wut"
 ```
 
 ### You can add newlines in your command prompt using ALT+ENTER or ALTGR+ENTER 
-
 #### *(sometimes — depending on which emulator and/or shell you're using) *
 
 So you can write that long-ass oneliner like you would in a script — with visible newlines — like God intended
