@@ -1,5 +1,5 @@
 # Simple terminal and script tips tricks
-### You can write:
+### You can write this:
 ```bash
 if [ -d "$PWD" ];then;echo "Yeah it is";else;echo "Hmmm... It should be";fi
 ```
