@@ -1,14 +1,9 @@
 # Simple terminal tricks
 
 ```bash
-if [ -d "$PWD" ];then
-
-  echo "Yeah it is"
-
-else
-
-  echo "Hmmm... It should be"
-
+if [ -d "$PWD" ];then;
+echo "Yeah it is";
+else;echo "Hmmm... It should be;"
 fi
 ```
 
@@ -16,13 +11,9 @@ fi
 
 ```bash
 [ -d "$PWD" ] && {
-
 echo "ofc"
-
 } || {
-
 echo "lol wut"
-
 }
 ```
  
