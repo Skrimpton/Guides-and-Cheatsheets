@@ -1,6 +1,7 @@
 # Simple terminal tricks
 
-`if [ -d "$PWD" ];then
+`
+if [ -d "$PWD" ];then
 
   echo "Yeah it is"
 
@@ -8,7 +9,8 @@ else
 
   echo "Hmmm... It should be"
 
-fi`
+fi
+`
 
 **Can also be written as:
 
