@@ -1,12 +1,10 @@
 # Simple terminal tricks
 
-` 
-if [ -d "$PWD" ];then <\br>
-  echo "Yeah it is" <\br>
-else <\br>
+`if [ -d "$PWD" ];then
+  echo "Yeah it is"
+else
   echo "Hmmm... It should be"
-fi 
-`
+fi`
 
 **Can also be written as:
 
