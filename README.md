@@ -1,5 +1,5 @@
 # Simple terminal tricks
-### YOu can write:
+### You can write:
 ```bash
 if [ -d "$PWD" ];then;echo "Yeah it is";else;echo "Hmmm... It should be";fi
 ```
@@ -14,14 +14,14 @@ else
 fi
 ```
 
-### Like This:
+### Like this:
 
 ```bash
 [ -d "$PWD" ] && {echo "ofc"} || {echo "lol wut"}
 
 ```
 
-#### or
+#### even like this:
 
 ```bash
 [ -d "$PWD" ] && {
@@ -31,6 +31,6 @@ echo "lol wut"
 }
 ```
 
-*In KDE's konsole running zsh ALT+ENTER adds a newline in the command prompt <br> where this version is easier to type and read from history than long lines using ;*
+### Some terminal emulator let you add newlines using ALT+ENTER or ALTGR+ENTER, and you can write that long ass oneliner like you would in a script, with visual newlines - like God intended <br>*
 
 
