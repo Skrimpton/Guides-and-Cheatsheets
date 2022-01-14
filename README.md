@@ -42,6 +42,8 @@ So you can write that long-ass oneliner like you would in a script — with visi
 
 ### Kill *all background-jobs - bash aliases
 
+<b> For suspended jobs
+
 ```bash
 alias kill-all-suspended='thejobs=$(jobs -ps | wc -l);[ "$thejobs" != 0 ] && while [ "$thejobs" != 0 ];do for i in "$thejobs"; do [ "$thejobs" != 0 ] && kill %$i; done; thejobs=$(jobs -ps | wc -l); done || echo "No suspended jobs"'
 ```
