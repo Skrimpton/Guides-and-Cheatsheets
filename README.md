@@ -4,7 +4,7 @@
 if [ -d "$PWD" ];then;echo "Yeah it is";else;echo "Hmmm... It should be";fi
 ```
 
-##### or
+#### or
 
 ```bash
 if [ -d "$PWD" ];then
@@ -21,7 +21,7 @@ fi
 
 ```
 
-##### or
+#### or
 
 ```bash
 [ -d "$PWD" ] && {
