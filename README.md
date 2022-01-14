@@ -31,7 +31,7 @@ echo "lol wut"
 }
 ```
 
-### *Some terminal emulators let you add newlines using ALT+ENTER or ALTGR+ENTER*
+### *Sometimes (depending on which emulator and/or shell you're using) you can add newlines in your terminal emulator using ALT+ENTER or ALTGR+ENTER*
 
 So you can write that long-ass oneliner like you would in a script — with visible newlines — like God intended
 
