@@ -38,5 +38,5 @@ echo "lol wut"
 So you can write that long-ass oneliner like you would in a script — with visible newlines — like God intended
 
 
-![](https://imma.gr/110386xb8eef.jpg)
+![](https://imma.gr/110388x4237a.jpg)
 
