@@ -34,17 +34,13 @@ fi
 
    
 ```bash
-[ -d "$PWD" ] &&                                                                                                             ─╯
+[ -d "$PWD" ] &&
 
 { echo -e "\nofc"
-
   echo -e "it's only logical"
-
   echo -e "...get it? like spock"
-
   sleep .7 && echo -en "\n:"   
   sleep .5 && echo -en "'"
-
   sleep .4 && echo -e "D"    
    
 } || {  
