@@ -31,14 +31,22 @@ fi
 ```
 
 ```bash
-[ -d "$PWD" ] &&
-{ echo "ofc"
+[ -d "$PWD" ] &&                                                                                                             ─╯
+
+{ echo -e "\nofc"
+
   echo -e "it's only logical"
-  echo -en "...get it? like spock"
-  sleep .7 && echo -en " :"  
-  sleep .4 && echo -e "D"   
-} ||  
-{ echo "lol wut" }
+
+  echo -e "...get it? like spock"
+
+  sleep .7 && echo -en "\n:"   
+  sleep .5 && echo -en "'"
+
+  sleep .4 && echo -e "D"    
+   
+} || {  
+
+  echo "lol wut" }
 ```
 
 <sup> <b> *(but you shouldn't)* </b> </sup>
