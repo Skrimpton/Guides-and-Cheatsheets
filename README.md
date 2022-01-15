@@ -50,7 +50,10 @@ fi
 }
 ```
 
-#### *[but here be dragons](https://www.linux.com/topic/desktop/all-about-curly-braces-bash/)*
+### But here be dragons...:
+#### *[ZSH.sourceforge.io - Alternate forms for complex commands](https://zsh.sourceforge.io/Doc/Release/Shell-Grammar.html#Alternate-Forms-For-Complex-Commands)*
+##### [man7.org - BASH manual on shellgrammar (compund commands are relevant)](https://man7.org/linux/man-pages/man1/bash.1.html#SHELL_GRAMMAR)
+##### [linux.com - Curly brackets](https://www.linux.com/topic/desktop/all-about-curly-braces-bash/)
 
 #
 
