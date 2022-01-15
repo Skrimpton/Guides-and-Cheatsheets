@@ -64,9 +64,9 @@ alias kill-all-suspended='thejobs=$(jobs -ps | wc -l);[ "$thejobs" != 0 ] && whi
 ```
 
 ## Shell Keybindings
-#### *(copy pasted from [2KAbhishek](https://gist.github.com/2KAbhishek/9c6d607e160b0439a186d4fbd1bd81df))*
+##### *(copy pasted from [2KAbhishek](https://gist.github.com/2KAbhishek/9c6d607e160b0439a186d4fbd1bd81df))*
 
-## Navigation 🚀
+### Navigation 🚀
 
 Alt + f/b  - Move cursor to previous/next word <br>
 
@@ -76,7 +76,7 @@ Ctrl + xx  - Toggle between the start of line and current cursor position <br>
 
 ---
 
-## Editing ✏️
+### Editing ✏️
 
 Ctrl + x,e   - Open command in editor <br>
 
@@ -114,7 +114,7 @@ Alt + r      - Cancel the changes, revert <br>
 
 ---
 
-## Process 📊
+### Process 📊
 
 Ctrl + l - Clear screen <br>
 
@@ -126,7 +126,7 @@ Ctrl + z - Background/Foreground job <br>
 
 ---
 
-## History ⏳
+### History ⏳
 
 Ctrl + r   - History search <br>
 
@@ -136,7 +136,7 @@ Ctrl + s   - Go back to the next most recent command <br>
 
 ---
 
-## Modes 🕹️
+### Modes 🕹️
 
 Ctrl +x,v - vi mode (zsh) <br>
 
