@@ -50,7 +50,7 @@ fi
 }
 ```
 
-####### *[but you shouldn't](https://www.linux.com/topic/desktop/all-about-curly-braces-bash/)*
+###### *[but you shouldn't](https://www.linux.com/topic/desktop/all-about-curly-braces-bash/)*
 
 #
 
