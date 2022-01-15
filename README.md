@@ -35,12 +35,7 @@ echo "lol wut"
 ```
 *(but you shouldn't)*
 
-
-
-
-
-
-
+#
 
 ### You can add newlines in your command prompt using ALT+ENTER or ALTGR+ENTER <br> *sometimes — depending on which emulator and/or shell you're using*
 
