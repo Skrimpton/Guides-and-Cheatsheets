@@ -33,7 +33,7 @@ echo "ofc"
 echo "lol wut"
 }
 ```
-<sup> *(but you shouldn't)* </sup>
+<sup> <b> *(but you shouldn't)* </b> </sup>
 
 #
 
