@@ -4,8 +4,9 @@
 #
 
 ##### The following examples check if "$PWD" is a folder that exists <br> and then outputs a text chosen by you if it is or if it isn't (hopefully is)*
-- "$PWD" is a command which prints the name of the current folder that the terminal you are using is doing stuff from or inside of*
+- "$PWD" is a variable which holds the path of the current folder that the terminal you are using is doing stuff from or inside of*
    - if "$PWD" is */home/Username*, then ```mkdir lolfolder``` will make */home/Username/lolfolder*
+   - echo "$PWD" will print the path to screen
 
 #### You can write this:
 
@@ -63,6 +64,20 @@ fi
 ##### [linux.com - Curly brackets](https://www.linux.com/topic/desktop/all-about-curly-braces-bash/)
 
 #
+
+### Speaking of $PWD...
+## Environment varieables:
+
+The commands to display the current envirnoment variables in ZSH and BASH are:
+
+<b> Bash </b>
+```bash
+bind -P
+```
+<b>Zsh<\b>
+```zsh
+env
+```
 
 #### You can add newlines in your command prompt using ALT+ENTER or ALTGR+ENTER <br> *sometimes — depending on which emulator and/or shell you're using*
 
