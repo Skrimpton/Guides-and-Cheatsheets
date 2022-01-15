@@ -22,7 +22,7 @@ fi
 [ -d "$PWD" ] && echo "ofc" || echo "lol wut"
 
 ```  
-<b> *or like this:* </b> </sup>
+<sup> <b> *or like this:* </b> </sup>
 
 ```bash
 [ -d "$PWD" ] && 
@@ -30,6 +30,9 @@ fi
 { echo "lol wut" }
 ```
 
+<b> <sup> *even like this* </b> </sup> 
+
+   
 ```bash
 [ -d "$PWD" ] &&                                                                                                             ─╯
 
