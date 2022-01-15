@@ -15,7 +15,7 @@ else
 fi
 ```
    
-<b> Like this: </b> (but you shouldn't)
+<b> Like this: </b>
    
 
 ```bash
@@ -33,6 +33,7 @@ echo "ofc"
 echo "lol wut"
 }
 ```
+*(but you shouldn't)*
 
 ### You can add newlines in your command prompt using ALT+ENTER or ALTGR+ENTER <br> *sometimes — depending on which emulator and/or shell you're using*
 
