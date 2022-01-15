@@ -35,8 +35,8 @@ fi
    
 ```bash
 [ -d "$PWD" ] &&
-
-{ echo -e "\nofc"
+{ 
+  echo -e "\nofc"
   echo -e "it's only logical"
   echo -e "...get it? like spock"
   sleep .7 && echo -en "\n:"   
@@ -45,7 +45,9 @@ fi
    
 } || {  
 
-  echo "lol wut" }
+  echo "lol wut"
+
+}
 ```
 
 <sup> <b> *( but you probably shouldn't )* </b> </sup>
