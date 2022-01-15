@@ -4,7 +4,7 @@
 #
 
 ##### The following examples check if "$PWD" is a folder that exists <br> and then outputs a text chosen by you if it is or if it isn't (hopefully is)*
-¹ "$PWD" is a command which prints the name of the current folder that the terminal you are using is doing stuff from or inside of*
+- "$PWD" is a command which prints the name of the current folder that the terminal you are using is doing stuff from or inside of*
    - if "$PWD" is /home/Username, then ```mkdir lolfolder``` will make /home/Username/lolfolder
 
 #### You can write this:
