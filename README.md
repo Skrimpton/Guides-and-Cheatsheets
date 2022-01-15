@@ -50,7 +50,7 @@ fi
 }
 ```
 
-<sup> <b> *( but you probably shouldn't )* </b> </sup>
+<sup> <b> *[but you shouldn't](https://www.linux.com/topic/desktop/all-about-curly-braces-bash/)* </b> </sup>
 
 #
 
