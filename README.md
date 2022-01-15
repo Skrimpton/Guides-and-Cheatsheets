@@ -44,7 +44,8 @@ So you can write that long-ass oneliner like you would in a script — with visi
 
 ### Kill all background-jobs - bash aliases
 
-![](https://user-images.githubusercontent.com/64572787/149601433-ef15a89c-58df-448d-bce1-de75ef2bcc2d.png)
+![](https://user-images.githubusercontent.com/64572787/149601795-1fa07384-d534-4b51-bbfe-16477d041fe4.png)
+
 
 *- For suspended jobs*
 ```bash
