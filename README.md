@@ -2,7 +2,7 @@
 #### Tested on Manjaro KDE using konsole 21.12.0 and zsh 5.8 (x86_64-pc-linux-gnu)
 #
 
-##### <b> The following examples check if "$PWD" <br> (a command whis prints the name of the current directory that the terminal you are using is doing stuff from or to) <br> is a folder that exists, and then outputs a text chosen by you if it is or if it isn't (hopefully is)* </b>
+##### <b> The following examples check if "$PWD\* "is a folder that exists <br> and then outputs a text chosen by you if it is or if it isn't (hopefully is)* </b>
 
 #### You can write this:
 
