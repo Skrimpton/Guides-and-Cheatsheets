@@ -41,9 +41,10 @@ echo "lol wut"
 
 So you can write that long-ass oneliner like you would in a script — with visible newlines — like God intended
 
-![Screenshot_14-01-2022_124330](https://user-images.githubusercontent.com/64572787/149510315-f038a511-1a0d-49da-af81-52c9a0ee6de3.png)
 
 ### Kill all background-jobs - bash aliases
+
+![](https://user-images.githubusercontent.com/64572787/149601433-ef15a89c-58df-448d-bce1-de75ef2bcc2d.png)
 
 *- For suspended jobs*
 ```bash
