@@ -2,7 +2,7 @@
 #### Tested on Manjaro KDE using konsole 21.12.0 and zsh 5.8 (x86_64-pc-linux-gnu)
 
 ##### You can write this:
-(checks if "$PWD" is a folder that exists)
+*(checks if "$PWD" is a folder that exists)*
 ```bash
 if [ -d "$PWD" ];then;echo "Yeah it is";else;echo "Hmmm... It should be";fi
 ```
