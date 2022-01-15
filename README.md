@@ -23,7 +23,7 @@ fi
 
 ```
    
-<sup> <b> *and even like this:* </b> </sup>
+<b> *and even like this:* </b> </sup>
 
 ```bash
 [ -d "$PWD" ] && 
@@ -33,7 +33,7 @@ echo "ofc"
 echo "lol wut"
 }
 ```
-*(but you shouldn't)*
+<sup> *(but you shouldn't)* </sup>
 
 #
 
