@@ -1,4 +1,4 @@
-# Simple terminal and script tips'n'tricks
+# Simple terminal and script tips
 #### Tested on Manjaro KDE using konsole 21.12.0 and zsh 5.8 (x86_64-pc-linux-gnu)
 #
 
