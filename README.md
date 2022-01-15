@@ -1,7 +1,7 @@
 # Simple terminal and script tips'n'tricks
 #### Tested on Manjaro KDE using konsole 21.12.0 and zsh 5.8 (x86_64-pc-linux-gnu)
 
-<b> *(This example checks if "$PWD" is a folder that exists)* </b>
+<b> *This example checks if "$PWD" (the current directory the terminal you are using is doing stuff from or to) is a folder that exists, and then outputs a text chosen by you if it is or if it isn't (hopefully is)* </b>
 
 ##### You can write this:
 
