@@ -74,7 +74,7 @@ The commands to display the current envirnoment variables in ZSH and BASH are:
 ```bash
 bind -P
 ```
-<b>Zsh<\b>
+<b> Zsh <\b>
 ```zsh
 env
 ```
