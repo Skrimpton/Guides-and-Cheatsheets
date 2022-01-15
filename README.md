@@ -46,7 +46,7 @@ So you can write that all-too-long one-liner visually similiar to a script — w
 
 
 #### Kill all background-jobs - bash aliases
-
+#
 
 *- For all jobs*
 
