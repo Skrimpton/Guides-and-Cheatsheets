@@ -1,5 +1,6 @@
 # Simple terminal and script tips
-#### Tested on Manjaro KDE using konsole 21.12.0 and zsh 5.8 (x86_64-pc-linux-gnu)
+#### Only tested on Manjaro KDE using konsole 21.12.0 and zsh 5.8 (x86_64-pc-linux-gnu)
+##### And some of the shortcuts don't work on that, so there is stuff in here that probably won't work for you
 #
 
 ##### The following examples check if "$PWD" is a folder that exists <br> and then outputs a text chosen by you if it is or if it isn't (hopefully is)*
