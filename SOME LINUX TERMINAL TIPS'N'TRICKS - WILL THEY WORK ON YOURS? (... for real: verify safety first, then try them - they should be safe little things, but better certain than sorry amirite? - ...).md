@@ -58,7 +58,18 @@ fi
 
 }
 ```
+<b>[elif](https://stackoverflow.com/a/53900466)</b>
 
+<sup> 
+Here we first check if PWD is a folder using an if-statement <br>
+and then following it up with echoing something if the if-test returns true
+
+The example exits in the elif-part, see the linked stackoverflow response for more details
+</sup>
+
+```bash
+( [ ! -d "$PWD" ] && echo -e "Not a folder..?" ) || ( [ -d "$PWD" ] && echo -e "Yeah it should be a folder" ) || echo -e ":O"   
+```
 ### But here be dragons...: [﹖](https://en.wikipedia.org/wiki/Here_be_dragons)
 #### *[ZSH.sourceforge.io - Alternate forms for complex commands](https://zsh.sourceforge.io/Doc/Release/Shell-Grammar.html#Alternate-Forms-For-Complex-Commands)*
 ##### [man7.org - BASH manual on shellgrammar (compund commands are relevant)](https://man7.org/linux/man-pages/man1/bash.1.html#SHELL_GRAMMAR)
