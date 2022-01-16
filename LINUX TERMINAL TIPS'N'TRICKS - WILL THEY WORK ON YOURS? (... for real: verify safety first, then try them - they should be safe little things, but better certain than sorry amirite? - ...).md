@@ -91,7 +91,7 @@ and then echoing something if the if-test returns true*</sup>
 ( [ ! -d "$PWD" ] && echo -e "Not a folder..?" ) || ( [ -d "$PWD" ] && echo -e "Yeah it should be a folder" ) || echo -e ":O"   
 ```
  [Beejor](https://stackoverflow.com/a/53900466) 
-  >Also note that ( and [ are technically commands, so whitespace is required around them.
+  > *Also note that ( and [ are technically commands, so whitespace is required around them.*
 
  <sup>right way: <code>( [ -d /folder ] )</code></sup>
 
@@ -124,19 +124,23 @@ set
 
 ## Newline(s)/empty line(s) in Terminal
 
-#### You can add new (empty) lines in your command prompt using ALT+ENTER or ALTGR+ENTER
+#### You can add new (empty) lines in your command prompt
   So you can write that all-too-long one-liner visually similiar to a script — with visible newlines — like God intended
  
-  shift+enter in Powershell (windows 10)
-  <br>ctrl +v followed by ctrl + j for [newline in bash](https://unix.stackexchange.com/a/80820)
-  > <sup>*To get the same behavior in bash, you can add to your ~/.inputrc:*</sup> [disclaimer: only make changes like  this if you're sure there won't be dire sideffects]
+  - zsh: alt + enter / esc + enter
+  - bash: ctrl + j *followed by* crtl + v
+  <br>[Stéphane Chazelas](https://unix.stackexchange.com/a/80820)
+  > *Alternatively, instead of typing *Enter*, you can type Ctrl-V* (then) *Ctrl-J...*
+  <br>*... To get the same behavior in bash, you can add to your ~/.inputrc:* <sup>
+  <br>[disclaimer: only make changes like  this if you're sure there won't be dire sideffects]</sup>
+
 ```
   "\e\C-m": "\026\n"
 ```
 
-
-![](https://user-images.githubusercontent.com/64572787/149601795-1fa07384-d534-4b51-bbfe-16477d041fe4.png)
-
+  - powershell (windows 10): shift + enter
+  
+#
 
 #### Kill all Jobs (they must die)
 
@@ -175,9 +179,8 @@ thejobs=$(jobs -ps | wc -l)
   done || echo "Nothing to kill"
 ```
 
-#
-
-
+![newline-example](https://user-images.githubusercontent.com/64572787/149652146-07720bae-bf23-4679-9f07-2d544403ce54.png)
+ 
 
 ## Shell Keybindings
 ##### *(copy pasted from [2KAbhishek](https://gist.github.com/2KAbhishek/9c6d607e160b0439a186d4fbd1bd81df))*
