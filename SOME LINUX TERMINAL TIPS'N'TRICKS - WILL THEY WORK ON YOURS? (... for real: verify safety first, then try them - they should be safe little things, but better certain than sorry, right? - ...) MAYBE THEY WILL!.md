@@ -3,6 +3,7 @@
 ##### And some of the shortcuts don't work on that, so there is stuff in here that probably won't work for you
 #
 
+## Shorten: "if / then / else / elif / fi "-blocks
 ##### The following examples check if "$PWD" is a folder that exists <br> and then outputs a text chosen by you if it is or if it isn't (hopefully is)*
 - "$PWD" is a variable which holds the path of the current folder that the terminal you are using is doing stuff from or inside of*
    - if "$PWD" is */home/Username*, then ```mkdir lolfolder``` will make */home/Username/lolfolder*
