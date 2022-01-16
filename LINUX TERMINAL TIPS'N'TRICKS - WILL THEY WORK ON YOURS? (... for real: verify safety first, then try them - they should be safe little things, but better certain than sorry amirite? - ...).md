@@ -14,16 +14,17 @@ See what it is with:
   ...will (attempt to) create:     /home/Username/lolfolder/</pre>  
 
 
-## Shorten "if / then / else / elif / fi "-blocks
+## Shorten "if ; then ; elif ; else ; fi "-blocks
 *The following examples check whether or not "$PWD" [^1] is a folder using:* ```[ -d /path/to/folder ]```
 <br> *and then outputs a text — chosen by you — depending on whether or not it is, or isn't a folder<br> (hopefully it is)*
 
 
-#### You can write these:
-
+#### You can write these if-statements:
+<sup>1</sup>
 ```bash
 if [ -d "$PWD" ];then;echo "Yeah it is";else;echo "Hmmm... It should be";fi
 ```
+<sup>2</sup>
 ```bash
 if [ -d "$PWD" ]
 then
@@ -69,10 +70,8 @@ fi
 ```
 <sup> <b>note:</b> you can also use curlybrackets for the given examples, and they will return the desired values, but you shouldn't. see [refrences](https://github.com/Skrimpton/Guides-and-Cheatsheets/blob/main/LINUX%20TERMINAL%20TIPS'N'TRICKS%20-%20WILL%20THEY%20WORK%20ON%20YOURS%3F%20(...%20for%20real:%20verify%20safety%20first,%20then%20try%20them%20-%20they%20should%20be%20safe%20little%20things,%20but%20better%20certain%20than%20sorry%20amirite%3F%20-%20...).md#refrence-list-for-here-be-dragons-)
 
-
-<b>[elif](https://stackoverflow.com/a/53900466)</b> 
-  >Also note that ( and [ are technically commands, so whitespace is required around them.
-
+  
+#### elif 
  
 <sup> *Here we first check if PWD is a folder using an if-statement <br>
 and then echoing something if the if-test returns true*</sup>
@@ -83,6 +82,12 @@ and then echoing something if the if-test returns true*</sup>
 ```bash
 ( [ ! -d "$PWD" ] && echo -e "Not a folder..?" ) || ( [ -d "$PWD" ] && echo -e "Yeah it should be a folder" ) || echo -e ":O"   
 ```
+ [Beejor](https://stackoverflow.com/a/53900466) 
+  >Also note that ( and [ are technically commands, so whitespace is required around them.
+
+ <sup>right way: <code>( [ -d /folder ] )</code></sup>
+
+<sup>wrong way: <code>([-d /folder])</code></sup>
 
 #
 
