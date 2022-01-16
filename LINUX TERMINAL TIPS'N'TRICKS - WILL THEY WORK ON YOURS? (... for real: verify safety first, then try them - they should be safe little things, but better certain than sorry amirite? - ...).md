@@ -61,7 +61,7 @@ fi
 
  
 Here we first check if PWD is a folder using an if-statement <br>
-and then following it up with echoing something if the if-test returns true
+and then echoing something if the if-test returns true
 
 The example exits in the elif-part, see the [linked](https://stackoverflow.com/a/53900466) stackoverflow response for more details
 
