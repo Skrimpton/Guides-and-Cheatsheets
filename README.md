@@ -76,12 +76,12 @@ bind -P
 ```zsh
 env
 ```
-Both:
-([will](https://linuxconfig.org/how-to-set-and-list-environment-variables-on-linux) work on most shells)
+<b> Both:
+([will](https://linuxconfig.org/how-to-set-and-list-environment-variables-on-linux) work on most shells) </b>
 ```bash
 printenv
 ```
-One can also list predefined variables by just passing "set"
+<b> One can also list predefined variables by just passing "set" </b>
 ```bash
 set   
 ```
