@@ -8,12 +8,19 @@
 ###### [man7.org - BASH manual on shellgrammar (compund commands are relevant)](https://man7.org/linux/man-pages/man1/bash.1.html#SHELL_GRAMMAR)
 ###### [linux.com - Curly brackets](https://www.linux.com/topic/desktop/all-about-curly-braces-bash/)
 ###### [Stackoverflow answer from "Beejor"](https://stackoverflow.com/a/53900466)
+#
 
-## Shorten: "if / then / else / elif / fi "-blocks
-The following examples check whether or not "$PWD" is a folder which exists<br> and then outputs a text chosen by you — depending on whether or not it is or isn't a folder that exists<br> (hopefully it does)*
-- "$PWD" is a variable which holds the path of the current folder that the terminal you are using is doing stuff from or inside of*
-   - if "$PWD" is */home/Username*, then ```mkdir lolfolder``` will make */home/Username/lolfolder*
-   - echo "$PWD" will print the path to screen
+[^1]:"$PWD" is a variable which holds the path of the folder where the terminal you are using is currently doing stuff from, or inside of  
+See what it is with:             echo "$PWD"  
+  If "$PWD" is:                    /home/Username/  
+  Then the command:                mkdir lolfolder  
+  ...will (attempt to) create:     /home/Username/lolfolder/</pre>  
+
+
+## Shorten "if / then / else / elif / fi "-blocks
+*The following examples check whether or not "$PWD" [^1] is a folder using:* ```[ -d /path/to/folder ]```
+<br> *and then outputs a text — chosen by you — depending on whether or not it is, or isn't a folder<br> (hopefully it is)*
+
 
 #### You can write these:
 
