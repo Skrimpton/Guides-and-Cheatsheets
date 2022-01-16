@@ -20,11 +20,11 @@ See what it is with:
 
 
 #### You can write these if-statements:
-<sup>1</sup>
+
 ```bash
 if [ -d "$PWD" ];then;echo "Yeah it is";else;echo "Hmmm... It should be";fi
 ```
-<sup>2</sup>
+
 ```bash
 if [ -d "$PWD" ]
 then
