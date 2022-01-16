@@ -77,7 +77,7 @@ bind -P
 env
 ```
 <b> Both:
-([will](https://linuxconfig.org/how-to-set-and-list-environment-variables-on-linux) work on most shells) </b>
+([will work on many shells](https://linuxconfig.org/how-to-set-and-list-environment-variables-on-linux)) </b>
 ```bash
 printenv
 ```
