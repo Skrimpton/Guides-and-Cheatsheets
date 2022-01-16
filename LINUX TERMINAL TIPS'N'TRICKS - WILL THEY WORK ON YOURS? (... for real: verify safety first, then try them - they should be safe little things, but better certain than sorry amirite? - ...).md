@@ -125,11 +125,12 @@ set
 ## Newline(s)/empty line(s) in Terminal
 
 #### You can add new (empty) lines in your command prompt
-  So you can write that all-too-long one-liner visually similiar to a script — with visible newlines — like God intended
- 
+  *So you can write that all-too-long-one-liner similiar to how you would in a script — with visible newlines! — like God intended*
+  - powershell (windows 10): shift + enter
   - zsh: alt + enter / esc + enter
   - bash: ctrl + j *followed by* crtl + v
-  <br>[Stéphane Chazelas](https://unix.stackexchange.com/a/80820)
+  
+  [Stéphane Chazelas](https://unix.stackexchange.com/a/80820)
   > *Alternatively, instead of typing *Enter*, you can type Ctrl-V* (then) *Ctrl-J...*
   <br>*... To get the same behavior in bash, you can add to your ~/.inputrc:* <sup>
   <br>[disclaimer: only make changes like  this if you're sure there won't be dire sideffects]</sup>
@@ -137,8 +138,6 @@ set
 ```
   "\e\C-m": "\026\n"
 ```
-
-  - powershell (windows 10): shift + enter
   
 #
 
