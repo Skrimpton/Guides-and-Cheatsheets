@@ -99,7 +99,7 @@ and then echoing something if the if-test returns true*</sup>
 
 #
 
-### Speaking of $PWD...
+<sup> Speaking of $PWD... </sup>
 ## Listing environment variables:
 
 <b> Bash </b>
@@ -142,7 +142,7 @@ set
   
 #
 
-#### Kill all Jobs (they must die)
+## Kill all Jobs (they must die)
 
 *- For all jobs*
 
@@ -180,7 +180,8 @@ thejobs=$(jobs -ps | wc -l)
 ```
 
 ![newline-example](https://user-images.githubusercontent.com/64572787/149652146-07720bae-bf23-4679-9f07-2d544403ce54.png)
- 
+
+#
 
 ## Shell Keybindings
 ##### *(copy pasted from [2KAbhishek](https://gist.github.com/2KAbhishek/9c6d607e160b0439a186d4fbd1bd81df))*
