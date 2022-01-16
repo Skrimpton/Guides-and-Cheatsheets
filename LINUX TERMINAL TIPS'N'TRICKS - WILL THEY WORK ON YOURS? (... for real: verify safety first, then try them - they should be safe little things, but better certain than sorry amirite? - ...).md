@@ -34,8 +34,8 @@ fi
 
 ```bash
 [ -d "$PWD" ] && 
-{ echo "ofc" } || 
-{ echo "lol wut" }
+( echo "ofc" ) || 
+( echo "lol wut" )
 ```
 
 <b> <sup> *even like this* </b> </sup> 
@@ -43,7 +43,7 @@ fi
    
 ```bash
 [ -d "$PWD" ] &&
-{ 
+( 
   echo -e "\nofc"
   echo -e "it's only logical"
   echo -e "...get it? like spock"
@@ -51,11 +51,14 @@ fi
   sleep .5 && echo -en "'"
   sleep .4 && echo -e "D"    
    
-} || {  
+) || (  
 
   echo "lol wut"
 
-}
+)
+
+<sup> note: you can also use curlybrackets for the given examples, and they will return the desired values, but you shouldn't. see refrences below
+
 ```
 <b>[elif](https://stackoverflow.com/a/53900466)</b>
 
