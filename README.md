@@ -87,9 +87,9 @@ set
 ```
 #
 
-## Newline(s) in Terminal (tested on konsole)
+## Newline(s) in Terminal
 
-#### You can add newlines in your command prompt using ALT+ENTER or ALTGR+ENTER <br> *sometimes — depending on which emulator and/or shell you're using*
+#### You can add newlines in your command prompt using ALT+ENTER or ALTGR+ENTER <br> *sometimes — depending on which emulator and/or shell you're using <br> <sup> (Tested on konsole; worked in zsh not bash - might be a settings issue I'm missing)* </sup>
 
 So you can write that all-too-long one-liner visually similiar to a script — with visible newlines — like God intended
 
