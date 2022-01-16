@@ -66,9 +66,9 @@ fi
 #
 
 ### Speaking of $PWD...
-## Environment varieables:
+## Listing environment variables:
 
-The commands to display the current envirnoment variables in ZSH and BASH are:
+Display the current envirnoment variables in ZSH and BASH are:
 
 <b> Bash </b>
 ```bash
@@ -77,6 +77,10 @@ bind -P
 <b> Zsh <\b>
 ```zsh
 env
+```
+Just passing "set" also lists (even more) predefined variables in both Zsh and Bash
+```bash
+set   
 ```
 
 #### You can add newlines in your command prompt using ALT+ENTER or ALTGR+ENTER <br> *sometimes — depending on which emulator and/or shell you're using*
