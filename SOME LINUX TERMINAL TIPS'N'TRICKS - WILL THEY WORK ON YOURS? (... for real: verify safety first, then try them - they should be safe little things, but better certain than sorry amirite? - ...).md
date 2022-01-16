@@ -11,11 +11,10 @@
 
 #### You can write this:
 
-* ```bash
+[```bash
 if [ -d "$PWD" ];then;echo "Yeah it is";else;echo "Hmmm... It should be";fi
-```
-Multiliner
-* ```bash
+```]
+```bash
 if [ -d "$PWD" ]
 then
    echo "Yeah it is"
