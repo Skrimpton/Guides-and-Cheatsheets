@@ -72,16 +72,16 @@ fi
 ```bash
 bind -P
 ```
-<b> Zsh <\b>
+<b> Zsh </b>
 ```zsh
 env
 ```
-Both (witll apparently work on most)
+Both:
+([will](https://linuxconfig.org/how-to-set-and-list-environment-variables-on-linux) work on most shells)
 ```bash
 printenv
 ```
-   
-Very comprehensive list of predefined variables is given by just passing "set"
+One can also list predefined variables by just passing "set"
 ```bash
 set   
 ```
