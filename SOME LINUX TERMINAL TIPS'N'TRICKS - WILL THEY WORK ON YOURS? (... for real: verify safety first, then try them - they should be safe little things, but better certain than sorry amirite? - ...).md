@@ -14,7 +14,6 @@
 ```bash
 if [ -d "$PWD" ];then;echo "Yeah it is";else;echo "Hmmm... It should be";fi
 ```
--
 ```bash
 if [ -d "$PWD" ]
 then
@@ -23,7 +22,7 @@ else
    echo "Hmmm... It should be"
 fi
 ```
-   
+#  
 <b> Like this: </b>
    
 
