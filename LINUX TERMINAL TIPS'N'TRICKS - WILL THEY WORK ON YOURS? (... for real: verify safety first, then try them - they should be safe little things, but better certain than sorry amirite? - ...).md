@@ -3,6 +3,14 @@
 ##### And some of the [shortcuts](https://github.com/Skrimpton/Guides-and-Cheatsheets/blob/main/LINUX%20TERMINAL%20TIPS'N'TRICKS%20-%20WILL%20THEY%20WORK%20ON%20YOURS%3F%20(...%20for%20real:%20verify%20safety%20first,%20then%20try%20them%20-%20they%20should%20be%20safe%20little%20things,%20but%20better%20certain%20than%20sorry%20amirite%3F%20-%20...).md#shell-keybindings) don't work on that, so there is stuff in here that might not work for you
 
 #
+### Table of contents:
+1. [Shorten "if ; then ; elif ; else ; fi "-blocks](https://github.com/Skrimpton/Guides-and-Cheatsheets/blob/main/LINUX%20TERMINAL%20TIPS'N'TRICKS%20-%20WILL%20THEY%20WORK%20ON%20YOURS%3F%20(...%20for%20real:%20verify%20safety%20first%2C%20then%20try%20them%20-%20they%20should%20be%20safe%20little%20things%2C%20but%20better%20certain%20than%20sorry%20amirite%3F%20-%20...).md#shorten-if--then--elif--else--fi--blocks)
+2. [Listing enviornment variables](https://github.com/Skrimpton/Guides-and-Cheatsheets/blob/main/LINUX%20TERMINAL%20TIPS'N'TRICKS%20-%20WILL%20THEY%20WORK%20ON%20YOURS%3F%20(...%20for%20real:%20verify%20safety%20first%2C%20then%20try%20them%20-%20they%20should%20be%20safe%20little%20things%2C%20but%20better%20certain%20than%20sorry%20amirite%3F%20-%20...).md#listing-environment-variables)
+3. [Newline in terminal (without executing a command)](https://github.com/Skrimpton/Guides-and-Cheatsheets/blob/main/LINUX%20TERMINAL%20TIPS'N'TRICKS%20-%20WILL%20THEY%20WORK%20ON%20YOURS%3F%20(...%20for%20real:%20verify%20safety%20first%2C%20then%20try%20them%20-%20they%20should%20be%20safe%20little%20things%2C%20but%20better%20certain%20than%20sorry%20amirite%3F%20-%20...).md#newlines-in-terminal)
+4. [Kill *all* jobs](https://github.com/Skrimpton/Guides-and-Cheatsheets/blob/main/LINUX%20TERMINAL%20TIPS'N'TRICKS%20-%20WILL%20THEY%20WORK%20ON%20YOURS%3F%20(...%20for%20real:%20verify%20safety%20first%2C%20then%20try%20them%20-%20they%20should%20be%20safe%20little%20things%2C%20but%20better%20certain%20than%20sorry%20amirite%3F%20-%20...).md#kill-all-background-jobs---bash-aliases)
+5. [Shell Keybindings](https://github.com/Skrimpton/Guides-and-Cheatsheets/blob/main/LINUX%20TERMINAL%20TIPS'N'TRICKS%20-%20WILL%20THEY%20WORK%20ON%20YOURS%3F%20(...%20for%20real:%20verify%20safety%20first%2C%20then%20try%20them%20-%20they%20should%20be%20safe%20little%20things%2C%20but%20better%20certain%20than%20sorry%20amirite%3F%20-%20...).md#shell-keybindings)
+
+#
 
 [^1]:"$PWD" is a variable which holds the path of the folder where the terminal you are using is currently doing stuff from, or inside of  
 —  
@@ -129,7 +137,7 @@ set
 ![](https://user-images.githubusercontent.com/64572787/149601795-1fa07384-d534-4b51-bbfe-16477d041fe4.png)
 
 
-#### Kill all background-jobs - bash aliases
+#### Kill all Jobs (they must die)
 
 *- For all jobs*
 
