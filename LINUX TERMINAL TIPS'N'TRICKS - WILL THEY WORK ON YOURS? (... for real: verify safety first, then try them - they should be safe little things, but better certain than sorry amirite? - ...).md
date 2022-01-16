@@ -142,15 +142,19 @@ set
 #
 
 ## Kill all Jobs (they must die)
+  *Functional (but bad and ugly) modified solution based on
+  <br>good solution found in comment by user <b>jw013</b> to [this stackexchange question](https://unix.stackexchange.com/q/43527)*
+![newline-example](https://user-images.githubusercontent.com/64572787/149652146-07720bae-bf23-4679-9f07-2d544403ce54.png) 
 
-*- For all jobs*
+  
+*- Kill all jobs*
 
 ```
 alias kill-all-jobs='thejobs=$(jobs | wc -l);[ "$thejobs" != 0 ] && while [ "$thejobs" != 0 ];do for i in "$thejobs"; do [ "$thejobs" != 0 ] && kill %$i; done; thejobs=$(jobs | wc -l); done || echo "No jobs"'
 ```
 
 
-*- For all suspended jobs*
+*- Kill all <b>suspended</b> jobs*
 
 ```
 alias kill-all-suspended='thejobs=$(jobs -ps | wc -l);[ "$thejobs" != 0 ] && while [ "$thejobs" != 0 ];do for i in "$thejobs"; do [ "$thejobs" != 0 ] && kill %$i; done; thejobs=$(jobs -ps | wc -l); done || echo "No suspended jobs"'
@@ -178,88 +182,61 @@ thejobs=$(jobs -ps | wc -l)
   done || echo "Nothing to kill"
 ```
 
-![newline-example](https://user-images.githubusercontent.com/64572787/149652146-07720bae-bf23-4679-9f07-2d544403ce54.png)
-
 #
 
 ## Shell Keybindings
-##### *(copy pasted from [2KAbhishek](https://gist.github.com/2KAbhishek/9c6d607e160b0439a186d4fbd1bd81df))*
+##### *Copied from [2KAbhishek](https://gist.github.com/2KAbhishek/9c6d607e160b0439a186d4fbd1bd81df)
 
 ### Navigation 🚀
 
-Alt + f/b  - Move cursor to previous/next word <br>
+- Alt + f/b  - Move cursor to previous/next word <br>
+- Ctrl + a/e - Move cursor to beginning/end of command <br>
+- Ctrl + xx  - Toggle between the start of line and current cursor position <br>
 
-Ctrl + a/e - Move cursor to beginning/end of command <br>
-
-Ctrl + xx  - Toggle between the start of line and current cursor position <br>
-
----
+  ---
 
 ### Editing ✏️
 
-Ctrl + x,e   - Open command in editor <br>
+- Ctrl + x,e   - Open command in editor <br>
+- Ctrl + k     - Cut till end <br>
+- Ctrl + u     - Delete whole line (zsh)/ cut until beginning (bash) <br>
+- Alt + w      - Delete until beginning (zsh) <br>
+- Alt + l/u    - Lowercase/Uppercase word <br>
+- Alt + c      - Capitalize Word <br>
+- Ctrl + w     - Cut previous word <br>
+- Alt + Del    - Delete previous word <br>
+- Alt + d      - Delete next word <br>
+- Alt +. or !$ - Previous commands last arguement <br>
+- !*           - All arguments of previous command <br>
+- Alt + t      - Swap current word with previous <br>
+- Ctrl + t     - Swap the last two characters before the cursor (typo). <br>
+- Esc + t      - Swap the last two words before the cursor <br>
+- Ctrl + y     - Paste <br>
+- Ctrl + _     - Undo <br>
+- Alt + r      - Cancel the changes, revert <br>
 
-Ctrl + k     - Cut till end <br>
-
-Ctrl + u     - Delete whole line (zsh)/ cut until beginning (bash) <br>
-
-Alt + w      - Delete until beginning (zsh) <br>
-
-Alt + l/u    - Lowercase/Uppercase word <br>
-
-Alt + c      - Capitalize Word <br>
-
-Ctrl + w     - Cut previous word <br>
-
-Alt + Del    - Delete previous word <br>
-
-Alt + d      - Delete next word <br>
-
-Alt +. or !$ - Previous commands last arguement <br>
-
-!*           - All arguments of previous command <br>
-
-Alt + t      - Swap current word with previous <br>
-
-Ctrl + t     - Swap the last two characters before the cursor (typo). <br>
-
-Esc + t      - Swap the last two words before the cursor <br>
-
-Ctrl + y     - Paste <br>
-
-Ctrl + _     - Undo <br>
-
-Alt + r      - Cancel the changes, revert <br>
-
----
-
+  ---
 ### Process 📊
 
-Ctrl + l - Clear screen <br>
+- Ctrl + l - Clear screen <br>
+- Ctrl + c - Interrupt/Kill <br>
+- Ctrl + d - Close Current Shell <br>
+- Ctrl + z - Background/Foreground job <br>
 
-Ctrl + c - Interrupt/Kill <br>
-
-Ctrl + d - Close Current Shell <br>
-
-Ctrl + z - Background/Foreground job <br>
-
----
+  ---
 
 ### History ⏳
 
-Ctrl + r   - History search <br>
+- Ctrl + r   - History search <br>
+- Ctrl + s   - Go back to the next most recent command <br>
+- ^abc­^­def   - Run previous command, replacing abc with def <br>
 
-Ctrl + s   - Go back to the next most recent command <br>
-
-^abc­^­def   - Run previous command, replacing abc with def <br>
-
----
+ ---
 
 ### Modes 🕹️
 
-Ctrl +x,v - vi mode (zsh) <br>
-
-set -o vi - Vi mode <br>
+- Ctrl +x,v - vi mode (zsh) <br>
+- set -o vi - Vi mode <br>
 
 #
 
