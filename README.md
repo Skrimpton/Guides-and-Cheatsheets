@@ -87,7 +87,7 @@ set
 ```
 #
 
-# Newline(s) in Terminal (tested on konsole)
+## Newline(s) in Terminal (tested on konsole)
 
 #### You can add newlines in your command prompt using ALT+ENTER or ALTGR+ENTER <br> *sometimes — depending on which emulator and/or shell you're using*
 
