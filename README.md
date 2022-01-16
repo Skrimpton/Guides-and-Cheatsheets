@@ -85,6 +85,7 @@ printenv
 ```bash
 set   
 ```
+###### ```bash set``` gives the most complete list
 #
 
 ## Newline(s) in Terminal
