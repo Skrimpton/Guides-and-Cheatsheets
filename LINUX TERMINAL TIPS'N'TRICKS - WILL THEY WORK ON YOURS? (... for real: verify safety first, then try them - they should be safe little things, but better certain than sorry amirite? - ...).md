@@ -2,6 +2,11 @@
 #### Only tested on Manjaro KDE using konsole 21.12.0 and zsh 5.8 (x86_64-pc-linux-gnu)
 ##### And some of the [shortcuts](https://github.com/Skrimpton/Guides-and-Cheatsheets/blob/main/LINUX%20TERMINAL%20TIPS'N'TRICKS%20-%20WILL%20THEY%20WORK%20ON%20YOURS%3F%20(...%20for%20real:%20verify%20safety%20first,%20then%20try%20them%20-%20they%20should%20be%20safe%20little%20things,%20but%20better%20certain%20than%20sorry%20amirite%3F%20-%20...).md#shell-keybindings) don't work on that, so there is stuff in here that might not work for you
 #
+### Refrence list because here be dragons... [﹖](https://en.wikipedia.org/wiki/Here_be_dragons)
+
+#### *[ZSH.sourceforge.io - Alternate forms for complex commands](https://zsh.sourceforge.io/Doc/Release/Shell-Grammar.html#Alternate-Forms-For-Complex-Commands)*
+##### [man7.org - BASH manual on shellgrammar (compund commands are relevant)](https://man7.org/linux/man-pages/man1/bash.1.html#SHELL_GRAMMAR)
+##### [linux.com - Curly brackets](https://www.linux.com/topic/desktop/all-about-curly-braces-bash/)
 
 ## Shorten: "if / then / else / elif / fi "-blocks
 ##### The following examples check if "$PWD" is a folder that exists <br> and then outputs a text chosen by you if it is or if it isn't (hopefully is)*
@@ -57,7 +62,7 @@ fi
 
 )
 ```
-<sup> note: you can also use curlybrackets for the given examples, and they will return the desired values, but you shouldn't. see refrences [below](https://github.com/Skrimpton/Guides-and-Cheatsheets/blob/main/LINUX%20TERMINAL%20TIPS'N'TRICKS%20-%20WILL%20THEY%20WORK%20ON%20YOURS%3F%20(...%20for%20real:%20verify%20safety%20first,%20then%20try%20them%20-%20they%20should%20be%20safe%20little%20things,%20but%20better%20certain%20than%20sorry%20amirite%3F%20-%20...).md#but-here-be-dragons-)
+<sup> <b>note:</b> you can also use curlybrackets for the given examples, and they will return the desired values, but you shouldn't. see refrences [below](https://github.com/Skrimpton/Guides-and-Cheatsheets/blob/main/LINUX%20TERMINAL%20TIPS'N'TRICKS%20-%20WILL%20THEY%20WORK%20ON%20YOURS%3F%20(...%20for%20real:%20verify%20safety%20first,%20then%20try%20them%20-%20they%20should%20be%20safe%20little%20things,%20but%20better%20certain%20than%20sorry%20amirite%3F%20-%20...).md#but-here-be-dragons-)
 
 <b>[elif](https://stackoverflow.com/a/53900466)</b>
 
@@ -71,10 +76,6 @@ and then echoing something if the if-test returns true*</sup>
 ```bash
 ( [ ! -d "$PWD" ] && echo -e "Not a folder..?" ) || ( [ -d "$PWD" ] && echo -e "Yeah it should be a folder" ) || echo -e ":O"   
 ```
-### But here be dragons...: [﹖](https://en.wikipedia.org/wiki/Here_be_dragons)
-#### *[ZSH.sourceforge.io - Alternate forms for complex commands](https://zsh.sourceforge.io/Doc/Release/Shell-Grammar.html#Alternate-Forms-For-Complex-Commands)*
-##### [man7.org - BASH manual on shellgrammar (compund commands are relevant)](https://man7.org/linux/man-pages/man1/bash.1.html#SHELL_GRAMMAR)
-##### [linux.com - Curly brackets](https://www.linux.com/topic/desktop/all-about-curly-braces-bash/)
 
 #
 
