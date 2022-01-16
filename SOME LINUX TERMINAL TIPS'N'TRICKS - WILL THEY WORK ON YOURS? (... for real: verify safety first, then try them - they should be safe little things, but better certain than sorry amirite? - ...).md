@@ -10,9 +10,16 @@
    - echo "$PWD" will print the path to screen
 
 #### You can write this:
-
 ```bash
 if [ -d "$PWD" ];then;echo "Yeah it is";else;echo "Hmmm... It should be";fi
+```
+```bash
+if [ -d "$PWD" ]
+then
+   echo "Yeah it is"
+else
+   echo "Hmmm... It should be"
+fi
 ```
 <b>*or this*</b>
    
