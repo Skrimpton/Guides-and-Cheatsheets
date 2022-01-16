@@ -77,11 +77,11 @@ bind -P
 env
 ```
 <b> Both:
-([will work on many shells](https://linuxconfig.org/how-to-set-and-list-environment-variables-on-linux)) </b>
+<br><sup>will work on many shells</sup> </b>
 ```bash
 printenv
 ```
-<b> One can also list predefined variables by just passing "set" without declaring any options</b>
+<b> One can also list predefined variables by just passing "set" without declaring any options<br><sup>will work on many shells</sup></b>
 ```bash
 set   
 ```
