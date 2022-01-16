@@ -21,15 +21,6 @@ else
    echo "Hmmm... It should be"
 fi
 ```
-<b>*or this*</b>
-   
-```bash
-if [ -d "$PWD" ];then
-   echo "Yeah it is"
-else
-   echo "Hmmm... It should be"
-fi
-```
    
 <b> Like this: </b>
    
