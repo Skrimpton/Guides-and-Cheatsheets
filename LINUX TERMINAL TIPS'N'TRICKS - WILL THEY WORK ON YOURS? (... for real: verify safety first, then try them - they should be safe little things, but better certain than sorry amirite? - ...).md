@@ -144,6 +144,7 @@ set
 ## Kill all Jobs (they must die)
   *Functional (but bad and ugly) modified solution based on
   <br>good solution found in comment by user <b>jw013</b> to [this stackexchange question](https://unix.stackexchange.com/q/43527)*
+  
 ![newline-example](https://user-images.githubusercontent.com/64572787/149652146-07720bae-bf23-4679-9f07-2d544403ce54.png) 
 
   
