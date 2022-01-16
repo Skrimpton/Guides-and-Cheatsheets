@@ -185,7 +185,7 @@ thejobs=$(jobs -ps | wc -l)
 #
 
 ## Shell Keybindings
-##### *Copied from [2KAbhishek](https://gist.github.com/2KAbhishek/9c6d607e160b0439a186d4fbd1bd81df)
+###### *Copied from [2KAbhishek](https://gist.github.com/2KAbhishek/9c6d607e160b0439a186d4fbd1bd81df)*
 
 ### Navigation 🚀
 
