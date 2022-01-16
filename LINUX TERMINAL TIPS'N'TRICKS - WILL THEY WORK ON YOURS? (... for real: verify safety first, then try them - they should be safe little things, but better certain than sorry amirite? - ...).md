@@ -127,6 +127,7 @@ set
 #### You can add newlines in your command prompt using ALT+ENTER or ALTGR+ENTER
   So you can write that all-too-long one-liner visually similiar to a script — with visible newlines — like God intended
  
+  shift+enter in Powershell (windows 10)
   ctrl +v followed by ctrl + j for [newline in bash](https://unix.stackexchange.com/a/80820)
   > <sup>*To get the same behavior in bash, you can add to your ~/.inputrc:*</sup>
 ```
