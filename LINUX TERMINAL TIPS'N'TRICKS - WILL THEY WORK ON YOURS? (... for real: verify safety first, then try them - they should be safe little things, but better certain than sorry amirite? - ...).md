@@ -21,11 +21,11 @@ See what it is with:
 
 #### You can write these if-statements:
 
-```bash
+```
 if [ -d "$PWD" ];then;echo "Yeah it is";else;echo "Hmmm... It should be";fi
 ```
 
-```bash
+```
 if [ -d "$PWD" ]
 then
    echo "Yeah it is"
@@ -37,13 +37,13 @@ fi
 <b> Like this: </b>
    
 
-```bash
+```
 [ -d "$PWD" ] && echo "ofc" || echo "lol wut"
 
 ```  
 <sup> <b> *or like this:* </b> </sup>
 
-```bash
+```
 [ -d "$PWD" ] && 
 ( echo "ofc" ) || 
 ( echo "lol wut" )
@@ -52,7 +52,7 @@ fi
 <b> <sup> *even like this* </b> </sup> 
 
    
-```bash
+```
 [ -d "$PWD" ] &&
 ( 
   echo -e "\nofc"
@@ -79,7 +79,7 @@ and then echoing something if the if-test returns true*</sup>
 <sup>*The example exits in the elif-part, see the [linked](https://stackoverflow.com/a/53900466) stackoverflow response for more details* </sup>
 
 
-```bash
+```
 ( [ ! -d "$PWD" ] && echo -e "Not a folder..?" ) || ( [ -d "$PWD" ] && echo -e "Yeah it should be a folder" ) || echo -e ":O"   
 ```
  [Beejor](https://stackoverflow.com/a/53900466) 
@@ -95,20 +95,20 @@ and then echoing something if the if-test returns true*</sup>
 ## Listing environment variables:
 
 <b> Bash </b>
-```bash
+```
 bind -P
 ```
 <b> Zsh </b>
-```zsh
+```
 env
 ```
 <b> Both:
 <br><sup>*will work in many shells*</sup> </b>
-```bash
+```
 printenv
 ```
 <b> One can also list predefined variables by just passing "set" without declaring any options<br><sup>*will work in many shells*</sup></b>
-```bash
+```
 set   
 ```
 <b><sup>*```set``` produces the most complete list of variables*</sup></b>
@@ -116,9 +116,14 @@ set
 
 ## Newline(s) in Terminal
 
-#### You can add newlines in your command prompt using ALT+ENTER or ALTGR+ENTER <br>  <sup> *(...maybe. Depending on which emulator, distro and/or shell you're using)<br>BTW: it's shift+enter in windows 10 powershell</sup><br><br>Tested on konsole where it worked in zsh, but not bash (might be a settings issue I'm missing) <br> it's shift+enter on windows powershell* 
-
-So you can write that all-too-long one-liner visually similiar to a script — with visible newlines — like God intended
+#### You can add newlines in your command prompt using ALT+ENTER or ALTGR+ENTER
+  So you can write that all-too-long one-liner visually similiar to a script — with visible newlines — like God intended
+ 
+  ctrl +v followed by ctrl + j for [newline in bash](https://unix.stackexchange.com/a/80820)
+  > <sup>*To get the same behavior in bash, you can add to your ~/.inputrc:*</sup>
+```
+  "\e\C-m": "\026\n"
+```
 
 
 ![](https://user-images.githubusercontent.com/64572787/149601795-1fa07384-d534-4b51-bbfe-16477d041fe4.png)
@@ -128,21 +133,19 @@ So you can write that all-too-long one-liner visually similiar to a script — w
 
 *- For all jobs*
 
-```bash
-
+```
 alias kill-all-jobs='thejobs=$(jobs | wc -l);[ "$thejobs" != 0 ] && while [ "$thejobs" != 0 ];do for i in "$thejobs"; do [ "$thejobs" != 0 ] && kill %$i; done; thejobs=$(jobs | wc -l); done || echo "No jobs"'
-
 ```
 
 
 *- For all suspended jobs*
 
-```bash
+```
 alias kill-all-suspended='thejobs=$(jobs -ps | wc -l);[ "$thejobs" != 0 ] && while [ "$thejobs" != 0 ];do for i in "$thejobs"; do [ "$thejobs" != 0 ] && kill %$i; done; thejobs=$(jobs -ps | wc -l); done || echo "No suspended jobs"'
 ```
 
 *- Readable version - for use in a script*
-```bash
+```
 #!/bin/bash
   
 ####### SWITCHING WHICH OF THESE TWO LINES ARE COMMENTED OUT CHANGES IT FROM SUSPENDED JOBS TO ALL BACKGROUND JOBS
