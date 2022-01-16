@@ -1,4 +1,4 @@
-# Simple terminal and script tips
+# Simple terminal and script tips - for simple folks
 #### Only tested on Manjaro KDE using konsole 21.12.0 and zsh 5.8 (x86_64-pc-linux-gnu)
 ##### And some of the [shortcuts](https://github.com/Skrimpton/Guides-and-Cheatsheets/blob/main/LINUX%20TERMINAL%20TIPS'N'TRICKS%20-%20WILL%20THEY%20WORK%20ON%20YOURS%3F%20(...%20for%20real:%20verify%20safety%20first,%20then%20try%20them%20-%20they%20should%20be%20safe%20little%20things,%20but%20better%20certain%20than%20sorry%20amirite%3F%20-%20...).md#shell-keybindings) don't work on that, so there is stuff in here that might not work for you
 
@@ -129,7 +129,7 @@ set
  
   shift+enter in Powershell (windows 10)
   <br>ctrl +v followed by ctrl + j for [newline in bash](https://unix.stackexchange.com/a/80820)
-  > <sup>*To get the same behavior in bash, you can add to your ~/.inputrc:*</sup>
+  > <sup>*To get the same behavior in bash, you can add to your ~/.inputrc:*</sup> [disclaimer: only make changes like  this if you're sure there won't be dire sideffects]
 ```
   "\e\C-m": "\026\n"
 ```
