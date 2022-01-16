@@ -85,7 +85,7 @@ printenv
 ```bash
 set   
 ```
-###### ```set``` gives the most complete list
+<sup>*```set``` gives the most complete list*</sup>
 #
 
 ## Newline(s) in Terminal
