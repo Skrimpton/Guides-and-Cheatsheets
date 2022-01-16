@@ -60,10 +60,10 @@ fi
 <b>[elif](https://stackoverflow.com/a/53900466)</b>
 
  
-Here we first check if PWD is a folder using an if-statement <br>
-and then echoing something if the if-test returns true
+<sup> *Here we first check if PWD is a folder using an if-statement <br>
+and then echoing something if the if-test returns true*</sup>
 
-The example exits in the elif-part, see the [linked](https://stackoverflow.com/a/53900466) stackoverflow response for more details
+<sup>*The example exits in the elif-part, see the [linked](https://stackoverflow.com/a/53900466) stackoverflow response for more details* </sup>
 
 
 ```bash
@@ -101,7 +101,7 @@ set
 
 ## Newline(s) in Terminal
 
-#### You can add newlines in your command prompt using ALT+ENTER or ALTGR+ENTER <br>  <sup> *(may/will depending on which emulator, distro and/or shell you're using) </sup><br><br>Tested on konsole where it worked in zsh, but not bash (might be a settings issue I'm missing) <br> it's shift+enter on windows powershell* 
+#### You can add newlines in your command prompt using ALT+ENTER or ALTGR+ENTER <br>  <sup> *(...maybe. Depending on which emulator, distro and/or shell you're using)<br>BTW: it's shift+enter in windows 10 powershell</sup><br><br>Tested on konsole where it worked in zsh, but not bash (might be a settings issue I'm missing) <br> it's shift+enter on windows powershell* 
 
 So you can write that all-too-long one-liner visually similiar to a script — with visible newlines — like God intended
 
