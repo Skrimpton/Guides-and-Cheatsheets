@@ -9,12 +9,12 @@
    - if "$PWD" is */home/Username*, then ```mkdir lolfolder``` will make */home/Username/lolfolder*
    - echo "$PWD" will print the path to screen
 
-#### You can write this:
+#### You can write these:
 
 ```bash
 if [ -d "$PWD" ];then;echo "Yeah it is";else;echo "Hmmm... It should be";fi
 ```
-
+-
 ```bash
 if [ -d "$PWD" ]
 then
