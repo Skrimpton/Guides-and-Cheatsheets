@@ -60,12 +60,12 @@ fi
 ```
 <b>[elif](https://stackoverflow.com/a/53900466)</b>
 
-<sup> 
+ 
 Here we first check if PWD is a folder using an if-statement <br>
 and then following it up with echoing something if the if-test returns true
 
 The example exits in the elif-part, see the linked stackoverflow response for more details
-</sup>
+
 
 ```bash
 ( [ ! -d "$PWD" ] && echo -e "Not a folder..?" ) || ( [ -d "$PWD" ] && echo -e "Yeah it should be a folder" ) || echo -e ":O"   
