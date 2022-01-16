@@ -122,9 +122,9 @@ set
 <b><sup>*```set``` produces the most complete list of variables*</sup></b>
 #
 
-## Newline(s) in Terminal
+## Newline(s)/empty line(s) in Terminal
 
-#### You can add newlines in your command prompt using ALT+ENTER or ALTGR+ENTER
+#### You can add new (empty) lines in your command prompt using ALT+ENTER or ALTGR+ENTER
   So you can write that all-too-long one-liner visually similiar to a script — with visible newlines — like God intended
  
   shift+enter in Powershell (windows 10)
