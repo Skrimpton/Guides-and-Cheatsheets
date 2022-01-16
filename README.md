@@ -81,7 +81,7 @@ env
 ```bash
 printenv
 ```
-<b> One can also list predefined variables by just passing "set" </b>
+<b> One can also list predefined variables by just passing "set" without declaring any options</b>
 ```bash
 set   
 ```
