@@ -10,12 +10,12 @@
    - echo "$PWD" will print the path to screen
 
 #### You can write this:
-Oneliner
-```bash
+
+* ```bash
 if [ -d "$PWD" ];then;echo "Yeah it is";else;echo "Hmmm... It should be";fi
 ```
 Multiliner
-```bash
+* ```bash
 if [ -d "$PWD" ]
 then
    echo "Yeah it is"
