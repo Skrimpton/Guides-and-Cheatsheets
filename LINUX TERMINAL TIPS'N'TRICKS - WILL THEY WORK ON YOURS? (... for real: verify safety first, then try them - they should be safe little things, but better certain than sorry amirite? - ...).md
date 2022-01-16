@@ -118,7 +118,6 @@ So you can write that all-too-long one-liner visually similiar to a script — w
 
 
 #### Kill all background-jobs - bash aliases
-#
 
 *- For all jobs*
 
@@ -134,19 +133,27 @@ alias kill-all-jobs='thejobs=$(jobs | wc -l);[ "$thejobs" != 0 ] && while [ "$th
 ```bash
 alias kill-all-suspended='thejobs=$(jobs -ps | wc -l);[ "$thejobs" != 0 ] && while [ "$thejobs" != 0 ];do for i in "$thejobs"; do [ "$thejobs" != 0 ] && kill %$i; done; thejobs=$(jobs -ps | wc -l); done || echo "No suspended jobs"'
 ```
-<sup>Readable version - for use in a script</sup>
+
+*- Readable version - for use in a script*
 ```bash
 #!/bin/bash
   
-alias kill-all-suspended='thejobs=$(jobs -ps | wc -l)
+####### SWITCHING WHICH OF THESE TWO LINES ARE COMMENTED OUT CHANGES IT FROM SUSPENDED JOBS TO ALL BACKGROUND JOBS
+####### this is determined by the -ps option of the "jobs"-command 
+
+#thejobs=$(jobs | wc -l) 
+thejobs=$(jobs -ps | wc -l)
+  
+###################################################################  
+
 [ "$thejobs" != 0 ] && while [ "$thejobs" != 0 ]
   do 
     for i in "$thejobs" 
       do 
         [ "$thejobs" != 0 ] && kill %$i
       done
-  thejobs=$(jobs -ps | wc -l)
-  done || echo "No suspended jobs
+    thejobs=$(jobs -ps | wc -l)
+  done || echo "Nothing to kill"
 ```
 
 #
