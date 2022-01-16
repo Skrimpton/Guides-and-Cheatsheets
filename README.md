@@ -77,11 +77,11 @@ bind -P
 env
 ```
 <b> Both:
-<br><sup>will work on many shells</sup> </b>
+<br><sup>*will work in many shells*</sup> </b>
 ```bash
 printenv
 ```
-<b> One can also list predefined variables by just passing "set" without declaring any options<br><sup>will work on many shells</sup></b>
+<b> One can also list predefined variables by just passing "set" without declaring any options<br><sup>*will work in many shells*</sup></b>
 ```bash
 set   
 ```
