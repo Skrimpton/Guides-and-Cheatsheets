@@ -85,7 +85,7 @@ printenv
 ```bash
 set   
 ```
-<sup>*```set``` gives the most complete list*</sup>
+<b><sup>*```set``` produces the most complete list of variables*</sup></b>
 #
 
 ## Newline(s) in Terminal
