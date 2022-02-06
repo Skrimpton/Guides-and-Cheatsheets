@@ -128,7 +128,7 @@ set
   *So you can write that all-too-long-one-liner similiar to how you would in a script — with visible newlines! — like God intended*
   - powershell (windows 10): shift + enter
   - zsh: alt + enter / esc + enter
-  - bash: ctrl + j *followed by* crtl + v
+  - bash: ctrl + v then crtl + j
   
   [Stéphane Chazelas](https://unix.stackexchange.com/a/80820)
   > *Alternatively, instead of typing *Enter*, you can type Ctrl-V* (then) *Ctrl-J...*
