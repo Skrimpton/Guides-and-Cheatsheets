@@ -132,8 +132,9 @@ set
   
   [Stéphane Chazelas](https://unix.stackexchange.com/a/80820)
   > *Alternatively, instead of typing *Enter*, you can type Ctrl-V* (then) *Ctrl-J...*
-  <br>*... To get the same behavior in bash, you can add to your ~/.inputrc:* <sup>
-  <br>[disclaimer: only make changes like  this if you're sure there won't be dire sideffects]</sup>
+  <br>*... To get the same behavior in bash, you can add to your ~/.inputrc:* 
+  
+  <sup>[ disclaimer: only make changes like  this if you're sure there won't be dire sideffects ]</sup>
 
 ```
   "\e\C-m": "\026\n"
