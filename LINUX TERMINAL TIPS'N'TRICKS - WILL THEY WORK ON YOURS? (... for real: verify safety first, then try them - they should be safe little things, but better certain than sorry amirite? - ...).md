@@ -24,7 +24,7 @@ See what it is with:
 
 ## Shorten "if ; then ; elif ; else ; fi "-blocks
 *The following examples check whether or not "$PWD" [^1] is a folder using:* ```[ -d /path/to/folder ]```
-<br> *and then outputs a text — chosen by you — depending on whether or not it is, or isn't a folder<br> (hopefully it is)*
+<br> *and then outputs some text chosen by you — depending on whether or not it is, or isn't a folder<br> (hopefully it is)*
 
 
 #### You can write these if-statements:
@@ -126,7 +126,7 @@ set
 
 #### You can add new (empty) lines in your command prompt
   *So you can write that all-too-long-one-liner similiar to how you would in a script — with visible newlines! — like God intended*
-  - powershell (windows 10): shift + enter
+  - powershell (windows): shift + enter
   - zsh: alt + enter / esc + enter
   - bash: ctrl + v then crtl + j
   
