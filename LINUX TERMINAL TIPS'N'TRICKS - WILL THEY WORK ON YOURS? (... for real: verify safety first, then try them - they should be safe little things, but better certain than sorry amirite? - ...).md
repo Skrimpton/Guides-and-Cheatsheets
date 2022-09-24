@@ -68,7 +68,7 @@ fi
   echo -e "...get it? like spock"
   sleep .7 && echo -en "\n:"   
   sleep .5 && echo -en "'"
-  sleep .4 && echo -e "\)"    
+  sleep .4 && echo -e ")"    
    
 ) || (  
 
